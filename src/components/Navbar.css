@@ -1,0 +1,53 @@
+.navbar {
+  height: 64px; background: var(--white);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 28px; border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; z-index: 10;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.04);
+}
+
+.navbar-title { font-size: 18px; font-weight: 600; color: var(--text); }
+
+.navbar-actions { display: flex; align-items: center; gap: 14px; }
+
+.notif-btn {
+  background: none; border: none; font-size: 20px; cursor: pointer;
+  padding: 6px; border-radius: 8px; transition: background 0.2s;
+}
+.notif-btn:hover { background: var(--bg); }
+
+.btn-connexion {
+  background: var(--primary); color: white;
+  border: none; padding: 10px 16px; border-radius: 6px;
+  font-weight: 600; font-size: 14px; cursor: pointer;
+  transition: background 0.2s;
+}
+.btn-connexion:hover { background: var(--primary-dark, #0051ff); }
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-email {
+  font-size: 14px;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.btn-profile {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-profile:hover {
+  background: var(--primary-dark, #0051ff);
+}
