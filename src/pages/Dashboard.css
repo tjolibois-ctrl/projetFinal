@@ -1,0 +1,20 @@
+.dashboard { display: flex; flex-direction: column; gap: 20px; }
+
+.dash-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.dash-stat { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.dash-stat-val { font-size: 36px; font-weight: 700; }
+.dash-stat-label { font-size: 13px; color: var(--text-light); font-weight: 500; }
+
+.card h3 { font-size: 15px; font-weight: 600; margin-bottom: 20px; }
+
+.bar-chart { display: flex; align-items: flex-end; gap: 16px; height: 180px; padding-top: 20px; }
+.bar-col { display: flex; flex-direction: column; align-items: center; gap: 6px; flex: 1; }
+.bar {
+  width: 100%; background: var(--primary); border-radius: 6px 6px 0 0;
+  min-height: 8px; transition: height 0.3s; opacity: 0.85;
+}
+.bar:hover { opacity: 1; }
+.bar-label { font-size: 11px; color: var(--text-light); font-weight: 500; }
+
+.activity-list { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+.activity-list li { font-size: 14px; color: var(--text); padding: 10px; background: var(--bg); border-radius: 8px; }

@@ -1,0 +1,115 @@
+.register-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7ff 0%, #d8e3ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-card {
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 44px 36px;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  box-shadow: 0 24px 60px rgba(31, 58, 148, 0.16);
+  border: 1px solid rgba(59, 91, 252, 0.12);
+}
+
+.register-logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #3b5bfc 0%, #5f7dff 100%);
+  margin: 0 auto 16px;
+}
+
+.register-card h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2b56;
+}
+
+.register-sub {
+  color: #51658b;
+  font-size: 15px;
+  margin: 8px 0 26px;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #394c70;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 13px 16px;
+  border: 1.5px solid #d9e2ff;
+  border-radius: 12px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #3b5bfc;
+  box-shadow: 0 0 0 4px rgba(59, 91, 252, 0.1);
+}
+
+.btn-primary {
+  background: #3b5bfc;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.btn-primary:hover {
+  background: #2f45d8;
+  transform: translateY(-1px);
+}
+
+.register-error {
+  margin: 16px 0 0;
+  padding: 12px 14px;
+  border: 1px solid #fca5a5;
+  background: #fee2e2;
+  color: #991b1b;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.register-success {
+  margin: 16px 0 0;
+  padding: 12px 14px;
+  border: 1px solid #86efac;
+  background: #dcfce7;
+  color: #15803d;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.connexion-footer {
+  margin-top: 22px;
+  font-size: 13px;
+  color: #5a6b8c;
+}
+
+.connexion-footer a {
+  color: #3b5bfc;
+  text-decoration: none;
+  font-weight: 600;
+}
